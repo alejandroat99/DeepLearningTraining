@@ -27,6 +27,10 @@ Este bloque propone algunos proyectos interesantes a realizar que aplican todo l
 centrándose en el encadenamiento de técnicas para resolver los problemas planteados.
 
 ## Requisitos Técnicos
-- Juputer Notebook
-- Python 3.8
 - Docker
+
+## Ejecución
+1. Descargar el contenido del repositorio
+2. Construir la imagen docker: `docker build -t <image-name> `.
+3. Ejecutar la imagen docker: `docker run -p <port>:8888 <image-name>`.
+4. Acceder a la dirección: `127.0.0.1:<port>`.
